@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>OKOFY</title>
+  <link rel="shortcut icon" href="okofy.png">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('okofybg.jpg');
+      background-size: cover;
+    }
+    
+    #black-margin {
+      background-color: #000;
+      padding: 10px;
+    }
+    
+    #menu {
+      display: flex;
+      justify-content: space-between;
+      color: #fff;
+      font-weight: bold;
+    }
+    
+    #menu a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    #content {
+      margin: 20px;
+      background-color: #f1f1f1;
+      padding: 10px;
+    }
+    
+    #content.highlight {
+      background-color: #fff;
+      box-shadow: 0 0 20px #ffcc00;
+    }
+  </style>
+  <script>
+    function highlightText(elementId) {
+      var element = document.getElementById(elementId);
+      element.classList.toggle("highlight");
+    }
+  </script>
+</head>
+<body>
+  <div id="black-margin">
+    <div id="menu">
+      <a href="#" onclick="highlightText('')">INTRODUCTION</a>
+      <a href="#" onclick="highlightText('')">OKOFY</a>
+      <a href="#" onclick="highlightText('')">OKOFY IMAGINO</a>
+      <a href="#" onclick="highlightText('')">OKOFY LIB</a>
+      <a href="#" onclick="highlightText('')">ABOUT</a>
+    </div>
+  </div>
+  <br>
+  <a href="hhttps://instagram.com/okofyworld?igshid=MzRlODBiNWFlZA==  "><img src = insta.png height=50 width=50></a>
+  <a href="https://t.me/okofy"><img src = tele.png height=50 width=50></a>
+  <a href="https://github.com/Okofy"><img src = git.png height=50 width=50></a>
+</body>
+</html>
