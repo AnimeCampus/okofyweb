@@ -39,6 +39,21 @@
       background-color: #fff;
       box-shadow: 0 0 20px #ffcc00;
     }
+
+    /* Responsive Styles */
+    @media only screen and (max-width: 600px) {
+      body {
+        background-size: contain;
+      }
+
+      #menu {
+        flex-wrap: wrap;
+      }
+
+      #content {
+        margin: 10px;
+      }
+    }
   </style>
   <script>
     function highlightText(elementId) {
@@ -50,16 +65,16 @@
 <body>
   <div id="black-margin">
     <div id="menu">
-      <a href="#" onclick="highlightText('')">INTRODUCTION</a>
-      <a href="#" onclick="highlightText('')">OKOFY</a>
-      <a href="#" onclick="highlightText('')">OKOFY IMAGINO</a>
-      <a href="#" onclick="highlightText('')">OKOFY LIB</a>
-      <a href="#" onclick="highlightText('')">ABOUT</a>
+      <a href="#" onclick="highlightText('introduction')">INTRODUCTION</a>
+      <a href="#" onclick="highlightText('okofy')">OKOFY</a>
+      <a href="#" onclick="highlightText('okofyImagino')">OKOFY IMAGINO</a>
+      <a href="#" onclick="highlightText('okofyLib')">OKOFY LIB</a>
+      <a href="#" onclick="highlightText('about')">ABOUT</a>
     </div>
   </div>
   <br>
-  <a href="hhttps://instagram.com/okofyworld?igshid=MzRlODBiNWFlZA==  "><img src = insta.png height=50 width=50></a>
-  <a href="https://t.me/okofy"><img src = tele.png height=50 width=50></a>
-  <a href="https://github.com/Okofy"><img src = git.png height=50 width=50></a>
+  <a href="https://instagram.com/okofyworld?igshid=MzRlODBiNWFlZA=="><img src="insta.png" height="50" width="50"></a>
+  <a href="https://t.me/okofy"><img src="tele.png" height="50" width="50"></a>
+  <a href="https://github.com/Okofy"><img src="git.png" height="50" width="50"></a>
 </body>
 </html>
